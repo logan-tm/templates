@@ -1,0 +1,23 @@
+{
+	"name": "ts-node-starter",
+	"version": "1.0.0",
+	"description": "A starter template for typescript node projects",
+	"license": "ISC",
+	"author": "logan-tm",
+	"type": "module",
+	"main": "main.ts",
+	"scripts": {
+		"start": "node --import=tsx main.ts",
+		"watch": "npx tsx watch main.ts",
+		"check": "npx biome check",
+		"check-fix": "npx biome check --fix"
+	},
+	"dependencies": {
+		"tsx": "^4.19.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.14.1",
+		"typescript": "^5.8.3"
+	}
+}
