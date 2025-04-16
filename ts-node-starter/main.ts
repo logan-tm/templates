@@ -1,5 +1,5 @@
 function main() {
-	console.log("Hello, TypeScript Node.js Starter!");
+  console.log("Hello, TypeScript Node.js Starter!!");
 }
 
 main();

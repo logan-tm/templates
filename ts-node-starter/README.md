@@ -1,14 +1,12 @@
 # TS Node Starter
 
-This repository serves as a barebones template for Node.js projects using TypeScript. It provides a minimal setup with basic functionality, formatting, and linting to help you kickstart your project.
+This repository serves as a barebones template for Node.js projects using TypeScript. It provides a minimal setup with basic functionality, formatting, and linting to help you kickstart your project. It contains only a single `main.ts` file with a console log.
 
 ## Features
 
 - **TypeScript**: Strongly typed JavaScript for better development experience.
 - **Node.js**: Lightweight and efficient runtime for building server-side applications.
-- **ESLint**: Linting for consistent code quality.
-- **Prettier**: Code formatting for a clean and readable codebase.
-- **Nodemon**: Automatic server restarts during development.
+- **Biome.js**: Code Formatting & Linting for consistent code quality.
 
 ## Getting Started
 
@@ -22,34 +20,21 @@ cd ts-node-starter
 2. **Install dependencies**:
 
 ```bash
-npm install
+npm install --include=dev
 ```
 
-3. **Run the development server**:
+3. **Run main.ts**:
 
 ```bash
-npm run dev
-```
-
-4. **Build the project**:
-
-```bash
-npm run build
-```
-
-5. **Run the production build**:
-
-```bash
-npm start
+npm run start
 ```
 
 ## Scripts
 
-- `npm run dev`: Start the development server with live reload.
-- `npm run build`: Compile TypeScript to JavaScript.
-- `npm start`: Run the compiled JavaScript in production mode.
-- `npm run lint`: Check for linting issues.
-- `npm run format`: Format the codebase using Prettier.
+- `npm start`: Run the `main.ts` file.
+- `npm run watch`: Watch the `main.ts` file.
+- `npm run check`: Check for linting and formatting issues.
+- `npm run check-fix`: As above, but attempts to fix issues.
 
 ## License
 
