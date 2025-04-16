@@ -2,6 +2,8 @@
 
 This repository serves as a barebones template for Node.js projects using TypeScript. It provides a minimal setup with basic functionality, formatting, and linting to help you kickstart your project. It contains only a single `main.ts` file with a console log.
 
+For more information on how this was put together, see `docs/FROM SCRATCH.md`.
+
 ## Features
 
 - **TypeScript**: Strongly typed JavaScript for better development experience.
